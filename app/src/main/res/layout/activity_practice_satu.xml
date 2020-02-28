@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tv_timer_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="10:10"
+            android:textColor="#070707"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/iv_soal_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/tv_soal_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Pertanyaan" />
+
+        <RadioGroup
+            android:id="@+id/rg_pilihan_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RadioButton
+                android:id="@+id/rb_pilihan_a_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pilihan A"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_pilihan_b_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pilihan B"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_pilihan_c_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pilihan C"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="5dp" />
+
+            <RadioButton
+                android:id="@+id/rb_pilihan_d_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Pilihan D"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="5dp" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/btn_next_main"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:text="Next" />
+
+
+        <TextView
+            android:id="@+id/tv_penjelasan_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/merah"
+            android:textStyle="italic" />
+    </LinearLayout>
+</ScrollView>

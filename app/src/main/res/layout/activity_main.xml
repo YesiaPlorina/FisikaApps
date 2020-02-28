@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hukum_newton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Hukum Newton adalah hukum yang menggambarkan hubungan antara gaya yang bekerja pada suatu benda dan gerak yang disebabkannya. Hukum gerak ini merupakan pondasi mekanika klasik yang dijabarkan dalam tiga Hukum Fisika."
+            android:textColor="#070707" />
+
+        <Button
+            android:id="@+id/btn_hk_satu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Hukum 1 Newton" />
+
+        <Button
+            android:id="@+id/btn_hk_dua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Hukum 2 Newton" />
+
+        <Button
+            android:id="@+id/btn_hk_tiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="Hukum 3 Newton" />
+    </LinearLayout>
+</ScrollView>
