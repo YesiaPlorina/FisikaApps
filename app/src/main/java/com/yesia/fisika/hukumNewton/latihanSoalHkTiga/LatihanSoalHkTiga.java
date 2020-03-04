@@ -40,25 +40,25 @@ public class LatihanSoalHkTiga extends AppCompatActivity {
 
     String[] pertanyaan_kuis = new String[]{
             "1. Tama memiliki massa sebesar 40 kg, kemudian Tama mendorong tembok dengan gaya 200 N. Maka, gaya reaksi yang dilakukan oleh tembok terhadap Tama adalah sebesar?",
-            "2. Satuan momentum adalah . . . .",
-            "3. Tekanan hidrostatis dipengaruhi oleh . . . .",
-            "4. Sifat benda yang memungkinkan benda kembali kebentuk semula setelah gaya yang bekerja pada benda dihilangkan disebut . . . .",
+            "2. Anggap lereng bukit rata dan memiliki koefisien gesek 0,125. Percepatan gravitasi bumi 10 m/s2 dan sin 53o = 0,8, cos 53o = 0,6. Tentukan nilai dari : Gaya normal pada balok",
+            "3. Anggap lereng bukit rata dan memiliki koefisien gesek 0,125. Percepatan gravitasi bumi 10 m/s2 dan sin 53o = 0,8, cos 53o = 0,6. Tentukan nilai dari : Gaya gesek antara lereng dan balok",
+            "4. Anggap lereng bukit rata dan memiliki koefisien gesek 0,125. Percepatan gravitasi bumi 10 m/s2 dan sin 53o = 0,8, cos 53o = 0,6. Tentukan nilai dari : Percepatan gerak balok",
             "5. Jika benda ini diam, carilah besar dan arah gaya gesek !"
     };
 
     String[] jawaban_kuis = new String[]{
             "A. 200 N ", "B. -200 N ", "C. 400 N ", "D. -400 N ",
-            "A. Kg.m/s", "B.  Kg.m/s2", "C. N.s", "D.m/s2",
-            "A. Percepatan", "B. Massa jenis zat cair", "C.  Massa benda", "D. Kecepatan",
-            "A. Plastisitas", "B. Emisivitas", "C. Elastisitas", "D. Strain",
+            "A. 300 N", "B. 400 N", "C. 500 N", "D. 600 N",
+            "A. 75 newton", "B.65 newton", "C.15 newton", "D. 55 newton",
+            "A. 7,5 m/s2", "B. 725 m/s2", "C. 7,25 m/s2", "D. 75 m/s2",
             "A. 10 N ke kiri", "B. 10 N ke kanan", "C. 20 N ke kiri", "D. 20 N ke kiri",
     };
 
     String[] jawaban_benar = new String[]{
             "B. -200 N ",
-            "A. Kg.m/s",
-            "B. Massa jenis zat cair",
-            "C. Elastisitas",
+            "D. 600 N",
+            "A. 75 newton",
+            "C. 7,25 m/s2",
             "A. 10 N ke kiri",
     };
     String[] penjelasan_jawaban = new String[]{
@@ -75,9 +75,33 @@ public class LatihanSoalHkTiga extends AppCompatActivity {
                     "200            =     -F(reaksi)\n" +
                     "\n" +
                     "F(reaksi) =      -200N",
-            "Satuan momentum adalah Kg.m/s",
-            "Besarnya tekanan hidrostatik dipengaruhi oleh kedalaman, gravitasi dan massa jenis zat cair (fluida)",
-            "Sifat benda yang memungkinkan benda kembali kebentuk semula setelah gaya yang bekerja pada benda dihilangkan disebut Elastisitas",
+            "Gaya-gaya pada balok diperlihatkan gambar berikut: a) Gaya normal pada balok\n" +
+                    "\n" +
+                    "Σ Fy = 0\n" +
+                    "\n" +
+                    "N − W cos θ = 0\n" +
+                    "\n" +
+                    "N − mg cos 53o = 0\n" +
+                    "\n" +
+                    "N − (100)(10)(0,6) = 0\n" +
+                    "\n" +
+                    "N = 600 Newton",
+            "b) Gaya gesek antara lereng dan balok\n" +
+                    "\n" +
+                    "fges = μk N\n" +
+                    "\n" +
+                    "fges = (0,125)(600) = 75 newton",
+            "c) Percepatan gerak balok\n" +
+                    "\n" +
+                    "Σ Fx = ma\n" +
+                    "\n" +
+                    "W sin θ − fges = ma\n" +
+                    "\n" +
+                    "mg sin 53o − fges = ma\n" +
+                    "\n" +
+                    "(100)(10)(0,8) − 75 = 100a\n" +
+                    "\n" +
+                    "a = 725/100 = 7,25 m/s2",
             "Pembahasan:\n" +
                     "\n" +
                     "mA = 4 kg\n" +
@@ -127,17 +151,17 @@ public class LatihanSoalHkTiga extends AppCompatActivity {
     };
     int[] gambarSoal = new int[]{
             R.drawable.ic_launcher_foreground,
-            R.drawable.ic_launcher_foreground,
-            R.drawable.ic_launcher_foreground,
-            R.drawable.ic_launcher_foreground,
+            R.drawable.soal_hk_tiga_no_dua_tiga_empat,
+            R.drawable.soal_hk_tiga_no_dua_tiga_empat,
+            R.drawable.soal_hk_tiga_no_dua_tiga_empat,
             R.drawable.soal_hk_tiga_no_lima
 
     };
     int[] gambarPenjelesan = new int[]{
             R.drawable.ic_launcher_foreground,
-            R.drawable.ic_launcher_foreground,
-            R.drawable.ic_launcher_foreground,
-            R.drawable.ic_launcher_foreground,
+            R.drawable.penjelasan_soal_hk_tiga_no_dua_tiga_empat,
+            R.drawable.penjelasan_soal_hk_tiga_no_dua_tiga_empat,
+            R.drawable.penjelasan_soal_hk_tiga_no_dua_tiga_empat,
             R.drawable.penjelasan_soal_hk_tiga_no_lima
 
     };
