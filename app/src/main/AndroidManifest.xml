@@ -9,22 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hukumNewton.LatihanSoal.PracticeSatu">
-
-        </activity>
         <activity android:name=".hukumNewton.HukumTiga" />
-        <activity android:name=".hukumNewton.LatihanSoalHkSatu" >
+        <activity android:name=".hukumNewton.latihanSoalHkSatu.LatihanSoalHkSatu" >
+        </activity>
+        <activity android:name=".hukumNewton.latihanSoalHkSatu.HasilHkSatu" />
+        <activity android:name=".hukumNewton.latihanSoalHkDua.HasilHkDua" />
+        <activity android:name=".hukumNewton.latihanSoalHkDua.LatihanSoalHkDua" />
+        <activity android:name=".hukumNewton.latihanSoalHkTiga.HasilHkTiga" />
+        <activity android:name=".hukumNewton.latihanSoalHkTiga.LatihanSoalHkTiga" />
+        <activity android:name=".hukumNewton.HukumDua" />
+        <activity android:name=".hukumNewton.HukumSatu" />
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".hukumNewton.HasilHkSatu" />
-        <activity android:name=".hukumNewton.HukumDua" />
-        <activity android:name=".hukumNewton.HukumSatu" />
-        <activity android:name=".MainActivity">
-
         </activity>
     </application>
 

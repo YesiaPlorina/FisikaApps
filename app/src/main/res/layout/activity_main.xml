@@ -20,6 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:textSize="20dp"
             android:text="Hukum Newton adalah hukum yang menggambarkan hubungan antara gaya yang bekerja pada suatu benda dan gerak yang disebabkannya. Hukum gerak ini merupakan pondasi mekanika klasik yang dijabarkan dalam tiga Hukum Fisika."
             android:textColor="#070707" />
 

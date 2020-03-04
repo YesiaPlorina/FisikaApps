@@ -14,14 +14,15 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/hukum_newton_satu"/>
+            android:src="@drawable/hukum_newton_satu" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
+            android:text=" “Jika resultan pada suatu benda sama dengan nol, maka benda yang diam akan tetap diam dan benda yang bergerak akan tetap bergerak dengan kecepatan tetap”"
             android:textColor="@color/black"
-            android:text=" “Jika resultan pada suatu benda sama dengan nol, maka benda yang diam akan tetap diam dan benda yang bergerak akan tetap bergerak dengan kecepatan tetap”"/>
+            android:textSize="20dp" />
 
         <ImageView
             android:layout_width="match_parent"
@@ -29,12 +30,12 @@
             android:src="@drawable/rumus_satu" />
 
         <Button
+            android:id="@+id/btn_practice_hk_satu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Latihan Soal"
-            android:id="@+id/btn_practice_hk_satu"/>
+            android:text="Latihan Soal" />
 
     </LinearLayout>
 

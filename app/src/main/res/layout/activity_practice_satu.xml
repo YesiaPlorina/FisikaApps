@@ -30,6 +30,8 @@
         <TextView
             android:id="@+id/tv_soal_main"
             android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textSize="20dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:text="Pertanyaan" />
@@ -88,7 +90,12 @@
             android:layout_weight="1"
             android:text="Next" />
 
-
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/gambar_penjelasan"
+            android:src="@drawable/ic_launcher_foreground"
+            />
         <TextView
             android:id="@+id/tv_penjelasan_main"
             android:layout_width="match_parent"
@@ -96,5 +103,7 @@
             android:layout_marginTop="15dp"
             android:textColor="@color/merah"
             android:textStyle="italic" />
+
+
     </LinearLayout>
 </ScrollView>
